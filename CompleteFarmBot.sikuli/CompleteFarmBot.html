@@ -1,0 +1,162 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>CompleteFarmBot.sikuli</h2> <a href="CompleteFarmBot.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">1</span>):
+    <span class="skw">find</span>(<img src="1504652955092.png" />)
+    <span class="skw">doubleClick</span>(<img src="1504652966755.png" />)
+    <span class="skw">wait</span> (<span class="dig">5</span>)
+    <span class="skw">find</span>(<img src="1504653073706.png" />)
+    <span class="skw">click</span>(Pattern(<img src="1504653091776.png" />).targetOffset(<span class="dig">165</span>,-<span class="dig">116</span>))
+    <span class="skw">wait</span> (<span class="dig">50</span>)
+    <span class="skw">find</span>(<img src="1504653725536.png" />)
+    <span class="skw">click</span>(<img src="1504653734936.png" />)
+    <span class="skw">wait</span> (<span class="dig">60</span>)
+    <span class="kw">if</span> exists(<img src="1504739872138.png" />):
+        <span class="skw">click</span>(<img src="1504739824391.png" />)
+    <span class="skw">wait</span> (<span class="dig">3</span>)
+    <span class="skw">find</span>(<img src="1504672715777.png" />)
+    <span class="skw">click</span>(<img src="1504672731293.png" />)
+    <span class="skw">click</span>(<img src="1504672782236.png" />)
+    <span class="skw">find</span>(<img src="1504673299307.png" />)
+    <span class="skw">click</span>(Pattern(<img src="1504673312975.png" />).targetOffset(<span class="dig">361</span>,<span class="dig">7</span>))
+    <span class="skw">click</span>(<img src="1504740362241.png" />)
+    <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+        <span class="skw">click</span>(<img src="1504672837055.png" />)
+        <span class="skw">click</span>(<img src="1504740540356.png" />)
+        <span class="skw">find</span>(<img src="1504654633557.png" />)
+        <span class="skw">click</span>(Pattern(<img src="1504654649617.png" />).targetOffset(<span class="dig">160</span>,-<span class="dig">27</span>))
+        <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">6</span>):
+            <span class="skw">click</span>(Pattern(<img src="1504654692036.png" />).similar(<span class="dig">0.85</span>))
+        <span class="skw">click</span>(Pattern(<img src="1504654747015.png" />).similar(<span class="dig">0.74</span>))
+        <span class="skw">click</span>(<img src="1504654764931.png" />)
+        <span class="skw">wait</span>(<span class="dig">1</span>)
+        <span class="skw">click</span>(<img src="1504654779038.png" />)
+        <span class="skw">wait</span> (<span class="dig">60</span>)
+        <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+            <span class="skw">click</span>(<img src="1504673092736.png" />)
+            <span class="skw">click</span>(<img src="1504740550765.png" />)
+            <span class="skw">find</span>(<img src="1504667264956.png" />)
+            <span class="skw">click</span>(Pattern(<img src="1504667284533.png" />).targetOffset(<span class="dig">166</span>,-<span class="dig">30</span>))
+            <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">6</span>):
+                <span class="skw">click</span>(<img src="1504667319549.png" />)
+
+            <span class="skw">click</span>(<img src="1504667372927.png" />)
+            <span class="skw">click</span>(<img src="1504667387522.png" />)
+            <span class="skw">wait</span>(<span class="dig">1</span>)
+            <span class="skw">click</span>(<img src="1504667415784.png" />)
+            <span class="skw">wait</span> (<span class="dig">60</span>)
+        <span class="kw">for</span> step <span class="kw">in</span> rage (<span class="dig">2</span>):
+            <span class="skw">click</span>(<img src="1504673172379.png" />)
+            <span class="skw">click</span>(<img src="1504740562390.png" />)
+            <span class="skw">find</span>(<img src="1504667538798.png" />)
+            <span class="skw">click</span>(Pattern(<img src="1504667545657.png" />).targetOffset(<span class="dig">161</span>,-<span class="dig">29</span>))
+            <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">6</span>):
+                <span class="skw">click</span>(<img src="1504667569353.png" />)
+            <span class="skw">click</span>(<img src="1504667575260.png" />)
+            <span class="skw">click</span>(<img src="1504667763532.png" />)
+            <span class="skw">wait</span> (<span class="dig">1</span>)
+            <span class="skw">click</span>(<img src="1504667797192.png" />)
+            <span class="skw">wait</span>(<span class="dig">60</span>)
+        <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+            <span class="skw">click</span>(<img src="1504673195230.png" />)
+            <span class="skw">click</span>(<img src="1504740576661.png" />)
+            <span class="skw">find</span>(<img src="1504667874084.png" />)
+            <span class="skw">click</span>(Pattern(<img src="1504667883965.png" />).targetOffset(<span class="dig">144</span>,-<span class="dig">25</span>))
+            <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">6</span>):
+                <span class="skw">click</span>(<img src="1504667909688.png" />)
+            <span class="skw">click</span>(<img src="1504668184112.png" />)
+            <span class="skw">click</span>(<img src="1504668196655.png" />)
+            <span class="skw">wait</span> (<span class="dig">1</span>)
+            <span class="skw">click</span>(<img src="1504668219841.png" />)
+            <span class="skw">wait</span>(<span class="dig">60</span>)
+        <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+            <span class="skw">click</span>(<img src="1504673247722.png" />)
+            <span class="skw">click</span>(<img src="1504740588214.png" />)
+            <span class="skw">find</span>(<img src="1504668479335.png" />)
+            <span class="skw">click</span>(Pattern(<img src="1504668456534.png" />).targetOffset(<span class="dig">163</span>,-<span class="dig">17</span>))
+            <span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">6</span>):
+                <span class="skw">click</span>(<img src="1504668353985.png" />)
+            <span class="skw">click</span>(<img src="1504668372346.png" />)
+            <span class="skw">click</span>(<img src="1504668385000.png" />)
+            <span class="skw">wait</span> (<span class="dig">1</span>)
+            <span class="skw">click</span>(<img src="1504668404565.png" />)
+            <span class="skw">wait</span>(<span class="dig">20</span>)
+        <span class="skw">find</span>(<img src="1504668521470.png" />)
+        <span class="skw">click</span>(Pattern(<img src="1504668533533.png" />).targetOffset(<span class="dig">86</span>,<span class="dig">0</span>))
+        <span class="skw">find</span>(<img src="1504668618487.png" />)
+        hover(<img src="1504668644875.png" />)
+        <span class="skw">click</span>(<img src="1504668653259.png" />)
+        <span class="skw">find</span>(<img src="1504668701261.png" />)
+        <span class="skw">click</span>(Pattern(<img src="1504668689123.png" />).targetOffset(<span class="dig">174</span>,-<span class="dig">45</span>))
+</pre>
+</body>
+</html>
